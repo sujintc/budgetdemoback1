@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-import { secretOrKey } from "../config/keys.js";
+import { secretOrKey } from "../keys.js";
 import User from "../models/User.js";
 
 // Register user

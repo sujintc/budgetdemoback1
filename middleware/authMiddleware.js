@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { secretOrKey } from "../config/keys.js";
+import { secretOrKey } from "../keys.js";
 
 // Authentication middleware
 export default (req, res, next) => {

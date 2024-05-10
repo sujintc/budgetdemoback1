@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import passport from "passport";
 
-import { mongoURI } from "./config/keys.js"; 
+import { mongoURI } from "./keys.js"; 
 
 // Initialize Express app
 const app = express();
@@ -31,7 +31,7 @@ console.log(hello)
 app.use(passport.initialize());
 
 // Import and configure Passport using ES module syntax
-import passportConfig from "./config/passport.js";
+import passportConfig from "./passport.js";
 passportConfig(passport);
 
 
