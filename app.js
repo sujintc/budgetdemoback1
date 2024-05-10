@@ -26,7 +26,7 @@ mongoose
     });
   })
   .catch((err) => console.error("MongoDB connection error:", err));
-
+console.log(hello)
 // Passport middleware
 app.use(passport.initialize());
 
